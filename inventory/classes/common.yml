@@ -1,0 +1,18 @@
+parameters:
+  kapitan:
+    vars:
+      target: ${target_name}
+    inventory:
+      - type: git
+        source: https://github.com/myspotontheweb/kapitan-demo.git
+        subdir: inventory/classes
+        output_path: classes/
+    dependencies:
+      - type: git
+        source: https://github.com/myspotontheweb/kapitan-demo.git
+        subdir: components
+        output_path: components/
+      - type: git
+        source: https://github.com/myspotontheweb/kapitan-demo.git
+        subdir: refs/global
+        output_path: refs/global

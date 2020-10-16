@@ -1,0 +1,2 @@
+compile:
+	@kapitan compile
