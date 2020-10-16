@@ -1,4 +1,4 @@
 components/
 inventory/classes/application.yml
 inventory/classes/myorg/
-refs/
+refs/global
